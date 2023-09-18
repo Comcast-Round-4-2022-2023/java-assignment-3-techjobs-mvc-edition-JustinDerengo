@@ -29,7 +29,7 @@
 
     <div th:fragment="results-table" class="container body-content">
 
-        <h1 th:text="${#strings.capitalizeWords(title)}"></h1>
+
         <th:block th:each="job : ${jobs}">
             <table class="job-listing">
                 <tbody>
