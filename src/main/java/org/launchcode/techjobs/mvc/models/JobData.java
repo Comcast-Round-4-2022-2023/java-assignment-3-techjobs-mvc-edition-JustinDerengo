@@ -206,6 +206,7 @@ public class JobData {
         }
     }
 
+
     public static ArrayList<Employer> getAllEmployers() {
         loadData();
         allEmployers.sort(new NameSorter());
@@ -229,6 +230,8 @@ public class JobData {
         allCoreCompetency.sort(new NameSorter());
         return allCoreCompetency;
     }
+
+
 
 }
 
